@@ -92,6 +92,11 @@ body {
   padding: 30px 30px 0 30px;
   filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.2));
   display:none;
+
+}
+
+.dropdown2 {
+  width: 300px;
 }
 
 .dropdown a {
@@ -100,8 +105,9 @@ body {
 }
 
 .dropdown li {
-
-  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
 }
 
 .active {
