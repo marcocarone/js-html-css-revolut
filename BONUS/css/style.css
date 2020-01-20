@@ -36,7 +36,6 @@ body {
 
 .nav-right a,
 .nav-left a {
-  color: rgb(139, 149, 158);
   text-decoration: none;
   padding: 20px 0 20px 25px;
 }
@@ -51,7 +50,12 @@ body {
 .nav-left a:active {
   color: rgb(23, 23, 23);
 }
-
+.link {
+  color: rgb(139, 149, 158);
+}
+.link-active {
+  color: #000000;
+}
 .text-pink::after {
   content: "Beta";
   vertical-align: top;
